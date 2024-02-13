@@ -65,6 +65,13 @@ function no(){
         container.style.borderColor = "rgb(139, 127, 127)";
         container.style.boxShadow= "4px 4px 10px rgb(139, 127, 127)";
         heartImg.style.filter = "grayscale(80%)";
+        else if (count == 6){
+        noBtn.innerHTML = "I.. really really love you.. please..";
+        document.body.style.background = "fixed no-repeat radial-gradient(rgb(195, 177, 177) 30%, rgb(90, 30, 30))";
+        // document.body.style.backgroundColor = "rgb(45, 45, 45)";
+        container.style.borderColor = "rgb(139, 127, 127)";
+        container.style.boxShadow= "4px 4px 10px rgb(139, 127, 127)";
+        heartImg.style.filter = "grayscale(95%)";
     } else {
         // CANCEL DESIGN
         document.body.style.background = "rgb(0, 0, 0)";
@@ -102,7 +109,7 @@ function yes(){
         decorTwoThree.classList.add("animatetoL");
         decorTwoThree.style.opacity = "1";
     } else {
-        document.getElementById("head").innerHTML = "THANK YOU, MY VALENTINE!"
+        document.getElementById("head").innerHTML = "THANK YOU, BOYFIEEE! ILY FOREVER Justine <3"
         document.getElementById("no").remove();
         document.getElementById("hug").style.opacity = "1";
         document.getElementById("fw-1").style.opacity = "1";
