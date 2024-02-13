@@ -11,7 +11,6 @@ let decorTwoThree = document.getElementById("dec4-1");
 
 
 function no(){
-    // negate effects on "yes"
     countOne = 1;
     yesBtn.innerHTML = "yes..";
     document.getElementById("head").innerHTML = "Will you be my valentine?...";
@@ -23,13 +22,6 @@ function no(){
     decorTwo.style.opacity = "0";
     decorTwoThree.classList.remove("animatetoL");
     decorTwoThree.style.opacity = "0";
-
-    // decorOne.classList.add("animatetoR");
-    // decorOne.style.opacity = "1";
-    // decorTwo.classList.add("animatetoR");
-    // decorTwo.style.opacity = "1";
-    // decorTwoThree.classList.add("animatetoL");
-    // decorTwoThree.style.opacity = "1";
 
     if (count == 1){
         noBtn.innerHTML = "You sure?";
