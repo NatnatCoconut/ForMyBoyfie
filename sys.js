@@ -57,8 +57,15 @@ function no(){
         container.style.borderColor = "rgb(139, 127, 127)";
         container.style.boxShadow= "4px 4px 10px rgb(139, 127, 127)";
         heartImg.style.filter = "grayscale(80%)";
-    
-    } else {
+    } else if (count == 6){
+        noBtn.innerHTML = "please.. I really really love you...";
+        document.body.style.background = "fixed no-repeat radial-gradient(rgb(195, 177, 177) 30%, rgb(90, 30, 30))";
+        // document.body.style.backgroundColor = "rgb(45, 45, 45)";
+        container.style.borderColor = "rgb(139, 127, 127)";
+        container.style.boxShadow= "4px 4px 10px rgb(139, 127, 127)";
+        heartImg.style.filter = "grayscale(95%)";
+    } 
+    else {
         // CANCEL DESIGN
         document.body.style.background = "rgb(0, 0, 0)";
         document.getElementById("container").remove();
